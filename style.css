@@ -82,7 +82,7 @@ input:hover, input:focus{
     border: 5px solid #FADE58;
     border-radius: 20px;
     display: block;
-    max-width: 70%;
+    max-width: 55%;
     margin: auto;
     text-align: center;
     margin-bottom: 10px;
@@ -109,8 +109,10 @@ ul{
     margin-top: 20px;
     margin-bottom: 30px;
     list-style: none;
+    line-height: 20px;
     color: rgb(102, 99, 67);
 }
+
 
 #containerResultado{
     background-color: rgb(254, 255, 234);
@@ -132,15 +134,15 @@ ul{
 }
 
 footer{
-    color: #5e5529;
-    text-shadow: 1px 1px rgb(223, 217, 206);
+    color: #ebe5ce;
+    text-shadow: 1px 1px rgb(77, 74, 69);
     font-weight: bold;
     font-size: 14px;
-    margin-top: 70px;
+    margin-top: 60px;
     text-align: center;
 }
 
-@media screen and (max-width: 900px){
+@media screen and (max-width: 920px){
 
 #containerResultado{
     background-color: rgb(254, 255, 234);
@@ -151,8 +153,21 @@ footer{
     margin: auto;
     margin-top: 30px;
     width: 330px;
-    height: 150px;
+    height: 50px;
 }
+
+
+#containerResultado{
+    background-color: rgb(254, 255, 234);
+    border: 5px solid #FADE58;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 250px;
+}
+
 
 footer{
     margin-bottom: 20px;
