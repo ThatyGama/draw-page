@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body{
+    background-image: url("./assets/trofeu1.jpg");
+    background-size: cover;               
+    background-repeat: no-repeat;
+    background-position: center center; 
+}
+
+button{
+    cursor: pointer;
+}
+
+#salvar{
+    color: rgb(109, 98, 0);
+    border-radius: 20px;
+    background-color: yellow;
+    border: 2px solid rgb(231, 231, 0);
+    padding: 3px 10px;
+}
+
+#salvar:hover{
+    background-color: rgb(233, 233, 31);
+    border: 2px solid rgb(212, 212, 27);
+}
+
+#salvar:active{
+    border: inset 2px rgb(129, 129, 17);
+}
+
+#sorteie{
+    color: rgb(102, 99, 67);
+    border: outset 2px #FADE58;
+    border-radius: 20px;
+    background: linear-gradient(45deg, rgb(231, 238, 102), orange);
+    margin-top: 15px;
+    padding: 8px 12px;
+    font-size: 18px;
+}
+
+#sorteie:hover{
+    border: 2px double rgb(212, 212, 27);
+}
+
+#sorteie:active{
+    border: inset 2px rgb(177, 117, 5);
+}
+
+h1{
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 40px;
+    color: #f5d42e;
+    text-shadow: 1px 1px rgb(129, 92, 22);
+}
+
+label{
+    font-size: 12px;
+    font-weight: bold;
+    color: rgb(102, 99, 67);
+}
+
+input{
+    border:none;
+    border-bottom: 1px solid rgba(150, 133, 51, 0.3);
+    font-size: 12px;
+    padding: 5px 5px;
+    background-color: rgb(254, 255, 234);
+}
+
+input:hover, input:focus{
+    outline: 0;
+}
+
+
+#participantes{
+    background-color: rgb(254, 255, 234);
+    border: 5px solid #FADE58;
+    border-radius: 20px;
+    display: block;
+    max-width: 70%;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+#nomesParticipantes{
+    font-size: 22px;
+    margin-top: 20px;
+    color: rgb(102, 99, 67);
+}
+
+#input{
+    margin-top: 10px;
+    padding-top: 10px;
+}
+
+h2{
+    padding-top: 20px;
+}
+
+ul{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    list-style: none;
+    color: rgb(102, 99, 67);
+}
+
+#containerResultado{
+    background-color: rgb(254, 255, 234);
+    border: 5px solid #FADE58;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    width: 350px;
+    height: 150px;
+}
+
+#resultado{
+    margin-top: 30px;
+    margin-left: 6px;
+    margin-right: 6px;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+footer{
+    color: #5e5529;
+    text-shadow: 1px 1px rgb(223, 217, 206);
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 70px;
+    text-align: center;
+}
+
+@media screen and (max-width: 900px){
+
+#containerResultado{
+    background-color: rgb(254, 255, 234);
+    border: 5px solid #FADE58;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 330px;
+    height: 150px;
+}
+
+footer{
+    margin-bottom: 20px;
+}
+
+}
+
+
+@media screen and (max-width: 900px){
+
+    
+#participantes{
+    background-color: rgb(254, 255, 234);
+    border: 5px solid #FADE58;
+    border-radius: 20px;
+    display: block;
+    max-width: 70%;
+    height: 400px;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 10px;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+
+#containerResultado{
+    background-color: rgb(254, 255, 234);
+    border: 5px solid #FADE58;
+    border-radius: 20px;
+    text-align: center;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+    width: 300px;
+    height: 150px;
+}
+
+#salvar{
+    margin-top: 10px;
+}
+
+#insira{
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+}
